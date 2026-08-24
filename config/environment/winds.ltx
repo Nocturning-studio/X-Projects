@@ -1,0 +1,139 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; WIND PROFILES CONFIGURATION
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; 1. ØÒÈËÜ È ÒÓÌÀÍ (CALM & FOG)
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[wind_calm_default]
+wind_strength    = 0.1 
+wind_direction   = 0.0
+wind_gusting     = 0.2   ; Äîáàâèë ìèêğî-ïîğûâû
+wind_tilt        = 0.0
+wind_velocity    = 0.5   ; Áûëî 0.3.
+
+[wind_foggy_morning]
+wind_strength    = 0.12  ; Áûëî 0.08
+wind_direction   = 45.0
+wind_gusting     = 0.3
+wind_tilt        = 2.0
+wind_velocity    = 0.6
+
+[wind_foggy_swamp]
+wind_strength    = 0.15  ; Áûëî 0.1
+wind_direction   = 90.0
+wind_gusting     = 0.2
+wind_tilt        = 0.0
+wind_velocity    = 0.4 
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; 2. ßÑÍÀß ÏÎÃÎÄÀ (CLEAR / SUNNY)
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[wind_clear_morning]
+wind_strength    = 0.35  ; Áûëî 0.2.
+wind_direction   = 120.0
+wind_gusting     = 1.0
+wind_tilt        = 5.0
+wind_velocity    = 0.75
+
+[wind_clear_noon]
+wind_strength    = 0.45
+wind_direction   = 120.0
+wind_gusting     = 1.5
+wind_tilt        = 10.0
+wind_velocity    = 0.8
+
+[wind_clear_evening]
+wind_strength    = 0.25  ; Áûëî 0.15.
+wind_direction   = 140.0
+wind_gusting     = 0.6
+wind_tilt        = 2.0
+wind_velocity    = 0.7   ; Áûëî 0.5.
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; 3. ÎÁËÀ×ÍÎÑÒÜ (CLOUDY)
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[wind_cloudy_breeze]
+wind_strength    = 0.55
+wind_direction   = 180.0
+wind_gusting     = 1.8
+wind_tilt        = 0.0
+wind_velocity    = 0.8
+
+[wind_cloudy_windy]
+wind_strength    = 0.7
+wind_direction   = 180.0
+wind_gusting     = 2.5
+wind_tilt        = -3.0
+wind_velocity    = 0.9
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; 4. ÄÎÆÄÜ (RAIN)
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[wind_rain_light]
+wind_strength    = 0.5
+wind_direction   = 220.0
+wind_gusting     = 1.5
+wind_tilt        = -5.0
+wind_velocity    = 0.7
+
+[wind_rain_medium]
+wind_strength    = 0.7
+wind_direction   = 220.0
+wind_gusting     = 2.2
+wind_tilt        = -10.0
+wind_velocity    = 0.9
+
+[wind_rain_heavy]
+wind_strength    = 0.85
+wind_direction   = 230.0
+wind_gusting     = 3.0
+wind_tilt        = -15.0
+wind_velocity    = 1.0
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; 5. ØÒÎĞÌ È ÃĞÎÇÀ (STORM)
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[wind_storm_prelude]
+wind_strength    = 0.3
+wind_direction   = 270.0
+wind_gusting     = 0.5
+wind_tilt        = 0.0
+wind_velocity    = 0.6
+
+[wind_thunderstorm]
+wind_strength    = 0.95
+wind_direction   = 270.0
+wind_gusting     = 4.0
+wind_tilt        = -20.0
+wind_velocity    = 1.2
+
+[wind_hurricane]
+wind_strength    = 1.0   ; Ìàêñèìóì.
+wind_direction   = 270.0
+wind_gusting     = 5.0   ; Î÷åíü ñèëüíàÿ òóğáóëåíòíîñòü.
+wind_tilt        = -15.0
+wind_velocity    = 1.6
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; 6. ÑÏÅÖÈÀËÜÍÛÅ (SPECIAL)
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[wind_anomaly_vortex]
+wind_strength    = 0.8
+wind_direction   = 0.0
+wind_gusting     = 2.5
+wind_tilt        = 45.0
+wind_velocity    = 1.5
+
+[wind_blowout_start]
+wind_strength    = 0.1
+wind_direction   = 0.0
+wind_gusting     = 0.5
+wind_tilt        = 0.0
+wind_velocity    = 0.1

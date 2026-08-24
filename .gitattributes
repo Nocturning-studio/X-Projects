@@ -1,0 +1,17 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+*.dds filter=lfs diff=lfs merge=lfs -text
+*.ogf filter=lfs diff=lfs merge=lfs -text
+*.omf filter=lfs diff=lfs merge=lfs -text
+*.cform filter=lfs diff=lfs merge=lfs -text
+*.ogg filter=lfs diff=lfs merge=lfs -text
+*.ppe filter=lfs diff=lfs merge=lfs -text
+*.tga filter=lfs diff=lfs merge=lfs -text
+*.ps_static filter=lfs diff=lfs merge=lfs -text
+*.wallmarks filter=lfs diff=lfs merge=lfs -text
+*.snd_static filter=lfs diff=lfs merge=lfs -text
+level filter=lfs diff=lfs merge=lfs -text
+*.hdr filter=lfs diff=lfs merge=lfs -text
+*.geom filter=lfs diff=lfs merge=lfs -text
+*.geomx filter=lfs diff=lfs merge=lfs -text
+*.hom filter=lfs diff=lfs merge=lfs -text

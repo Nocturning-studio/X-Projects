@@ -1,0 +1,43 @@
+class "opt_accessibility" (CUIWindow)
+
+function opt_accessibility:__init() super()
+end
+
+function opt_accessibility:__finalize()
+end
+
+function opt_accessibility:InitControls(x, y, xml, handler)
+	local ctl
+	self:Init (x,y, 738, 416)
+	self:SetAutoDelete (true)
+	
+	self.bk	= xml:InitFrame("frame_accessibility", self)
+	self.scroll_v = xml:InitScrollView("accessibility:scroll_v", self)
+
+	_st = xml:InitStatic("accessibility:templ_item", self.scroll_v)
+	xml:InitStatic("accessibility:cap_unlimited_ammo", _st)
+	xml:InitCheck("accessibility:check_unlimited_ammo", _st)
+
+	_st = xml:InitStatic("accessibility:templ_item", self.scroll_v)
+	xml:InitStatic("accessibility:cap_immortality", _st)
+	xml:InitCheck("accessibility:check_immortality", _st)
+
+	_st = xml:InitStatic("accessibility:templ_item", self.scroll_v)
+	xml:InitStatic("accessibility:cap_last_chance_mode", _st)
+	xml:InitCheck("accessibility:check_last_chance_mode", _st)
+
+	_st = xml:InitStatic("accessibility:templ_item", self.scroll_v)
+	xml:InitStatic("accessibility:cap_slow_mode_zoom", _st)
+	xml:InitCheck("accessibility:check_slow_mode_zoom", _st)
+
+	_st = xml:InitStatic("accessibility:templ_item", self.scroll_v)
+	xml:InitStatic("accessibility:cap_damage_multiplier", _st)
+	xml:InitTrackBar("accessibility:track_damage_multiplier", _st)
+
+	_st = xml:InitStatic("accessibility:templ_item", self.scroll_v)
+	xml:InitStatic("accessibility:cap_color_blind_mode", _st)
+	xml:InitComboBox("accessibility:list_color_blind_mode", _st)
+
+	btn	= xml:Init3tButton("accessibility:btn_quit_accessibility",	self)	
+	handler:Register (btn, "btn_quit_accessibility")	
+end

@@ -1,0 +1,582 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+	<string id="Ammo">
+		<text>Amunicja</text>
+	</string>
+	<string id="ammo-11.43x23-fmj">
+		<text>Naboje 45ACP</text>
+	</string>
+	<string id="ammo-11.43x23-fmj_s">
+		<text>45ACP</text>
+	</string>
+	<string id="ammo-11.43x23-hydro">
+		<text>Naboje 45ACP Hydro-Shock </text>
+	</string>
+	<string id="ammo-11.43x23-hydro_s">
+		<text>45Hydro</text>
+	</string>
+	<string id="ammo-12x70-buck">
+		<text>Naboje њrutowe 12x70</text>
+	</string>
+	<string id="ammo-12x70-buck_s">
+		<text>њrutowe 12x70</text>
+	</string>
+	<string id="ammo-12x76-dart">
+		<text>Naboje strzaіkowe 12x76</text>
+	</string>
+	<string id="ammo-12x76-dart_s">
+		<text>strzaіkowe 12x76</text>
+	</string>
+	<string id="ammo-12x76-zhekan">
+		<text>Naboje kulowe 12x76</text>
+	</string>
+	<string id="ammo-12x76-zhekan_s">
+		<text>kulowe 12x76</text>
+	</string>
+	<string id="ammo-5.45x39-ap">
+		<text>Naboje 5,45x39 mm BP</text>
+	</string>
+	<string id="ammo-5.45x39-ap_s">
+		<text>5,45x39 BP</text>
+	</string>
+	<string id="ammo-5.45x39-fmj">
+		<text>Naboje 5,45x39 mm </text>
+	</string>
+	<string id="ammo-5.45x39-fmj_s">
+		<text>5,45x39</text>
+	</string>
+	<string id="ammo-5.56x45-ap">
+		<text>Naboje 5,56x45 mm AP</text>
+	</string>
+	<string id="ammo-5.56x45-ap_s">
+		<text>5,56x45 AP</text>
+	</string>
+	<string id="ammo-5.56x45-ss190">
+		<text>Naboje 5,56x45 mm</text>
+	</string>
+	<string id="ammo-5.56x45-ss190_s">
+		<text>5,56 SS</text>
+	</string>
+	<string id="ammo-7.62x54-7h1">
+		<text>Naboje 7,62x54 mm 7N1</text>
+	</string>
+	<string id="ammo-7.62x54-7h1_s">
+		<text>7,62 7N1</text>
+	</string>
+	<string id="ammo-7.62x54-7h14">
+		<text>Naboje 7,62x54R 7N14</text>
+	</string>
+	<string id="ammo-7.62x54-7h14_s">
+		<text>7,62 7N14</text>
+	</string>
+	<string id="ammo-7.62x54-ap">
+		<text>Naboje 7,62x54 mm BP</text>
+	</string>
+	<string id="ammo-7.62x54-ap_s">
+		<text>7,62 BP</text>
+	</string>
+	<string id="ammo-9x18-fmj">
+		<text>Naboje 9x18 mm</text>
+	</string>
+	<string id="ammo-9x18-fmj_s">
+		<text>9x18</text>
+	</string>
+	<string id="ammo-9x18-pmm">
+		<text>Naboje 9x18 mm +P+</text>
+	</string>
+	<string id="ammo-9x18-pmm_s">
+		<text>9x18 +P+</text>
+	</string>
+	<string id="ammo-9x19-fmj">
+		<text>9x19mm FMJ</text>
+	</string>
+	<string id="ammo-9x19-fmj_s">
+		<text>9x19 FMJ</text>
+	</string>
+	<string id="ammo-9x19-pbp">
+		<text>Naboje 9x19mm PB1s </text>
+	</string>
+	<string id="ammo-9x19-pbp_s">
+		<text>9x19 PB1s</text>
+	</string>
+	<string id="ammo-9x39-ap">
+		<text>Naboje 9x39 mm SP-6</text>
+	</string>
+	<string id="ammo-9x39-ap_s">
+		<text>9x39 mm SP-6</text>
+	</string>
+	<string id="ammo-9x39-pab9">
+		<text>Naboje 9x39 mm PAB-9</text>
+	</string>
+	<string id="ammo-9x39-pab9_s">
+		<text>9x39 PAB-9</text>
+	</string>
+	<string id="ammo-9x39-sp5">
+		<text>Naboje 9x39 mm SP-5</text>
+	</string>
+	<string id="ammo-9x39-sp5_s">
+		<text>9x39 SP-5</text>
+	</string>
+	<string id="ammo-gauss">
+		<text>Naboje do dziaіka Gaussa</text>
+	</string>
+	<string id="ammo-gauss_s">
+		<text>Gauss </text>
+	</string>
+	<string id="ammo-m209">
+		<text>Granat M209</text>
+	</string>
+	<string id="ammo-m209_s">
+		<text>M209</text>
+	</string>
+	<string id="ammo-og-7b">
+		<text>Granat OG-7V</text>
+	</string>
+	<string id="ammo-og-7b_s">
+		<text>OG-7V</text>
+	</string>
+	<string id="ammo-vog-25">
+		<text>Granat VOG-25</text>
+	</string>
+	<string id="ammo-vog-25_s">
+		<text>VOG-25</text>
+	</string>
+	<string id="ammo-vog-25p">
+		<text>Granat VOG-25R</text>
+	</string>
+	<string id="ammo-vog-25p_s">
+		<text>VOG-25R</text>
+	</string>
+	<string id="enc_weapons1_ammo_ammo-11.43x23-fmj">
+		<text>Standardowy nabуj do pistoletуw Kora-919 i SIP-t M200. Ma klasyczny rdzeс i pocisk peіnopіaszczowy.</text>
+	</string>
+	<string id="enc_weapons1_ammo_ammo-11.43x23-hydro">
+		<text>Ulepszony nabуj Hydro-Shock dla pistoletуw Kora-919 i SIP-t M200. Ma pocisk z wgікbieniem czubkowym o duїej mocy obalaj№cej.</text>
+	</string>
+	<string id="enc_weapons1_ammo_ammo-12x70-buck">
+		<text>Standardowy nabуj kaliber 12 ze њrutem 6 mm. Ma ogromn№ siік niszcz№c№ na krуtki dystans. Stworzony dla strzelb BM 17, Chaser 13 oraz SPSA14. Najbardziej skuteczny na odlegіoњж poniїej 30 metrуw. </text>
+	</string>
+	<string id="enc_weapons1_ammo_ammo-12x76-dart">
+		<text>Pocisk przeciwpancerny stabilizowany brzechwowo, dziкki czemu ma wiкksz№ celnoњж. Stworzony dla strzelb TOS 34, BM 17, Chaser 13 oraz SPSA14. Ma zwiкkszony zasiкg. Skuteczny na odlegіoњж do 150 metrуw.</text>
+	</string>
+	<string id="enc_weapons1_ammo_ammo-12x76-zhekan">
+		<text>Nabуj z pociskiem bezpіaszczowym. Zazwyczaj wykorzystywany do polowania na duї№ zwierzynк, ale rуwnieї do innych celуw. Duїy pocisk nie przebija, ale wrкcz przewierca siк przez kamizelki kuloodporne. Stworzony dla strzelb TOS 34, BM 17, Chaser 13 oraz SPSA14. Skuteczny na odlegіoњж do 100 metrуw. </text>
+	</string>
+	<string id="enc_weapons1_ammo_ammo-5.45x39-ap">
+		<text>Przeciwpancerny nabуj do karabinуw szturmowych Akm 74/2, Akm 74/2U oraz ON-94. Zwiкkszona przebijalnoњж, lecz zmniejszona moc obalaj№ca. </text>
+	</string>
+	<string id="enc_weapons1_ammo_ammo-5.45x39-fmj">
+		<text>Standardowy nabуj do karabinуw szturmowych Akm 74/2, Akm 74/2U oraz Obokan. Klasyczny rdzeс i peіnopіaszczowy pocisk.</text>
+	</string>
+	<string id="enc_weapons1_ammo_ammo-5.56x45-ap">
+		<text>Nabуj z przeciwpancernym pociskiem do karabinуw szturmowych IL 86, TRs 301, SGI 5k, GP 37 oraz FT 200M.</text>
+	</string>
+	<string id="enc_weapons1_ammo_ammo-5.56x45-ss190">
+		<text>Standardowy nabуj NATO powszechnie znany w swej belgijskiej wersji, SS109. Uїywany do karabinуw szturmowych IL 86, TRs 301, SGI 5k, GP 37 oraz FT 200M.</text>
+	</string>
+	<string id="enc_weapons1_ammo_ammo-7.62x54-7h1">
+		<text>Tania wersja naboju do karabinуw snajperskich SWDm 2 oraz SWUmk2.</text>
+	</string>
+	<string id="enc_weapons1_ammo_ammo-7.62x54-7h14">
+		<text>Nabуj do karabinуw snajperskich SWDm 2 oraz SWUmk2. Ma ulepszon№ celnoњж i zasiкg. </text>
+	</string>
+	<string id="enc_weapons1_ammo_ammo-7.62x54-ap">
+		<text>Nabуj z przeciwpancernym pociskiem do karabinуw snajperskich SWDm 2 oraz SWUmk2.</text>
+	</string>
+	<string id="enc_weapons1_ammo_ammo-9x18-fmj">
+		<text>Standardowy nabуj do pistoletуw PMm, PB1s oraz Fort-12Mk2. Klasyczny rdzeс i peіnopіaszczowy pocisk. Sіaba przebijalnoњж.</text>
+	</string>
+	<string id="enc_weapons1_ammo_ammo-9x18-pmm">
+		<text>Ulepszony nabуj z poprawionymi osi№gami balistycznymi do pistoletуw PMm, PB1s oraz Fort-12Mk2. Dziкki wysokiej prкdkoњci wylotowej pocisku jest bardziej skuteczny od standardowego naboju. Ma lepsz№ przebijalnoњж.</text>
+	</string>
+	<string id="enc_weapons1_ammo_ammo-9x19-fmj">
+		<text>Standardowy nabуj do pistoletu Walker P9m oraz do pistoletu maszynowego Viper 5. Pocisk peіnopіaszczowy ze sіab№ przebijalnoњci№.</text>
+	</string>
+	<string id="enc_weapons1_ammo_ammo-9x19-pbp">
+		<text>Ulepszony nabуj do pistoletu Walker P9m oraz do pistoletu maszynowego Viper 5. Nabуj o duїym zasiкgu, pocisk z wgікbieniem czubkowym i rdzeniem przeciwpancernym.</text>
+	</string>
+	<string id="enc_weapons1_ammo_ammo-9x39-ap">
+		<text>Nabуj przeciwpancerny do karabinуw szturmowych Tunder S14 i VLA oraz do karabinu snajperskiego Wintar. Ma poddџwiкkowy pocisk, ktуry dziкki specjalnej budowie przebija wiкkszoњж kamizelek kuloodpornych z odlegіoњci do 400 metrуw.</text>
+	</string>
+	<string id="enc_weapons1_ammo_ammo-9x39-pab9">
+		<text>Nabуj do karabinуw szturmowych Tunder S14 i VLA oraz karabinu snajperskiego Wintar. Pуџniejsza i taсsza wersja naboju przeciwpancernego. Ma poddџwiкkowy pocisk, ktуry dziкki specjalnej budowie przebija wiкkszoњж kamizelek kuloodpornych z odlegіoњci do 300 metrуw.</text>
+	</string>
+	<string id="enc_weapons1_ammo_ammo-9x39-sp5">
+		<text>Nabуj snajperski do karabinуw szturmowych Tunder S14 i VLA oraz do karabinu snajperskiego Wintar. Ma poddџwiкkowy pocisk, ktуry dziкki swemu ciкїarowi i specjalnej budowie przebija wiкkszoњж kamizelek kuloodpornych z odlegіoњci do 400 metrуw.</text>
+	</string>
+	<string id="enc_weapons1_ammo_ammo-gauss">
+		<text>Ogniwa energetyczne ze њmiercionoњnymi pierwiastkami w magazynku dziaіka Gaussa. Џrуdіem energii jest fragment "bіysku".</text>
+	</string>
+	<string id="enc_weapons1_ammo_ammo-m209">
+		<text>Granat do granatnika ?203 (dla karabinуw TRs 301, GP 37, SGI 5k, IL 86) oraz do zintegrowanego granatnika w FT 200M.</text>
+	</string>
+	<string id="enc_weapons1_ammo_ammo-og-7b">
+		<text>Silnie wybuchowy pocisk do RPG-7u. Rуwnie skuteczny przeciw oddziaіom wojska jak i lekkim pojazdom opancerzonym. </text>
+	</string>
+	<string id="enc_weapons1_ammo_ammo-vog-25">
+		<text>Granat do granatnika GP-25, zintegrowanego granatnika w Tunderze oraz do granatnika rewolwerowego Bulldog 6.</text>
+	</string>
+	<string id="enc_weapons1_ammo_ammo-vog-25p">
+		<text>Granat do granatnika GP-25, zintegrowanego granatnika w Tunderze S14 oraz do granatnika rewolwerowego Bulldog 6. Przed wybuchem podskakuje na wysokoњж okoіo metra, zwiкkszaj№c w ten sposуb siік niszcz№c№.</text>
+	</string>
+	<string id="enc_weapons1_grenade-f1">
+		<text>Rкczny granat obronny o duїym promieniu raїenia odіamkowego. Zaleca siк rzucaж jedynie z ukrycia.</text>
+	</string>
+	<string id="enc_weapons1_grenade-gd05">
+		<text>Granat dymny, ktуrego zadaniem jest stworzenie zasіony utrzymuj№cej siк przez 10 sekund.</text>
+	</string>
+	<string id="enc_weapons1_grenade-rgd5">
+		<text>Granat zaczepny o niewielkim promieniu raїenia odіamkowego.</text>
+	</string>
+	<string id="enc_weapons1_wpn-abakan">
+		<text>Broс elitarnych oddziaіуw armii rosyjskiej. Stworzony, by zast№piж przestarzaіe Akm 74/2. Ruchome s№ nie tylko mechanizmy wewnкtrzne Obokana, ale rуwnieї komora zamkowa oraz lufa, co zmniejsza odrzut i zwiкksza celnoњж.\n Amunicja:\n standardowa 5,45x39 mm,\n przeciwpancerna 5,45x39 mm BP.</text>
+	</string>
+	<string id="enc_weapons1_wpn-abakan_m1">
+		<text>Karabin maszynowy wyposaїony w ulepszony celownik optyczny nadaj№cy siк do ostrzaіu snajperskiego. Wbudowany celownik ma wyїsz№ rozdzielczoњж niї model standardowy.</text>
+	</string>
+	<string id="enc_weapons1_wpn-abakan_m2">
+		<text>Ten karabin maszynowy ma pod luf№ zintegrowany granatnik, co sprawia, їe staje siк broni№ jeszcze bardziej uniwersaln№.</text>
+	</string>
+	<string id="enc_weapons1_wpn-addon-grenade-launcher">
+		<text>Granatnik dla Akm 74/2 oraz Akm 74/2U.\n Amunicja: granat VOG-25,\n oraz VOG-25R.</text>
+	</string>
+	<string id="enc_weapons1_wpn-addon-grenade-launcher-m203">
+		<text>Granatnik dla SGI 5k, TRs 301, GP 37 oraz IL 86.\n Amunicja: granaty M209.</text>
+	</string>
+	<string id="enc_weapons1_wpn-addon-scope">
+		<text>Popularny radziecki celownik. Moїna go umieњciж na broni za pomoc№ szyny "jaskуіczy ogon" uїywanej przez kraje Ukіadu Warszawskiego.</text>
+	</string>
+	<string id="enc_weapons1_wpn-addon-scope-susat">
+		<text>Celownik o powiкkszeniu 4x produkowany w krajach NATO. Moїna go zamocowaж za pomoc№ standardowej szyny NATO zwanej rуwnieї szyn№ Picatinny.</text>
+	</string>
+	<string id="enc_weapons1_wpn-addon-silencer">
+		<text>Skuteczny tіumik stworzony przez rusznikarzy z Zony. W skіad zestawu wchodzi komplet zі№czek do broni wszystkich kalibrуw.</text>
+	</string>
+	<string id="enc_weapons1_wpn-ak74">
+		<text>Karabin szturmowy ze skіadan№ kolb№, model z 1974, na naboje 5,45x39 mm. To prosta i niezawodna broс, jednak niewielki koszt produkcji miaі wpіyw na jej ergonomiк i celnoњж. W Zonie to gіуwna broс wojskowych stalkerуw i wielu samotnych їoіnierzy.\n Amunicja:\n standardowa 5,45x39 mm,\n przeciwpancerna 5,45x39 mm BP.</text>
+	</string>
+	<string id="enc_weapons1_wpn-ak74_m1">
+		<text>Ulepszony mechanizm zamykania zwiкksza szybkostrzelnoњж.</text>
+	</string>
+	<string id="enc_weapons1_wpn-ak74u">
+		<text>Rozmiarem i wag№ Akm 74/2U przypomina pistolet maszynowy, ale sposуb uїytkowania tej broni oraz stosowana amunicja kaї№ j№ sklasyfikowaж jako karabin szturmowy. Jego zaletami s№ niewielkie rozmiary (szczegуlnie waїne w trakcie walki wewn№trz budynku lub w gкstym lesie) oraz stosunkowo wysoka przebijalnoњж. Gіуwne wady to ograniczona celnoњж oraz szybkie przegrzewanie siк przy ogniu ci№gіym.\n Amunicja:\n standardowa 5,45x39 mm,\n przeciwpancerna 5,45x39 mm BP.</text>
+	</string>
+	<string id="enc_weapons1_wpn-ak74u_m1">
+		<text>Ulepszony karabin maszynowy z niewymiennym tіumikiem.</text>
+	</string>
+	<string id="enc_weapons1_wpn-beretta">
+		<text>Uїywany przez armiк i policjк w Stanach Zjednoczonych oraz przez wiele jednostek wojskowych i policyjnych na caіym њwiecie. Jest rуwnieї bardzo popularny wњrуd przestкpcуw ze wzglкdu na naboje o duїej mocy oraz pojemny magazynek.\n Amunicja:\n standardowa 9x19 mm FMJ,\n ulepszona 9x19 mm PB1s.</text>
+	</string>
+	<string id="enc_weapons1_wpn-bm16">
+		<text>Obrzyn BM-17. Jest lїejszy i mniejszy niї oryginalna dubeltуwka, ale skuteczny tylko na krуtki zasiкg. Jedna z broni czкsto uїywanych przez pocz№tkuj№cych.\n Amunicja:\n њrutowa 12x70,\n kulowa 12x76,\n strzaіkowa 12x76.</text>
+	</string>
+	<string id="enc_weapons1_wpn-colt_m1">
+		<text>Broс pіatnych zabуjcуw. Stara, dobra, niezawodna Kora z niewymiennym tіumikiem.</text>
+	</string>
+	<string id="enc_weapons1_wpn-colt1911">
+		<text>Broс, ktуra godnie uczestniczyіa we wszystkich konfliktach w XX wieku i ze њmiaіoњci№ wkroczyіa w nowy wiek. Niewielki magazynek czкњciowo wynagradza wykorzystanie nabojуw o duїej mocy.\n Amunicja:\n standardowa 45 ACP,\n ulepszona 45 ACP Hydro-Shock.</text>
+	</string>
+	<string id="enc_weapons1_wpn-desert-eagle">
+		<text>Prawdziwa broс dla prawdziwych bohaterуw. Jest duїa, ciкїka i sieje zniszczenie. W Zonie nie cieszy siк zbytni№ popularnoњci№ ze wzglкdu na sw№ cenк i rozmiar. Przecieї nie codziennie poluje siк na sіonie!\n Amunicja:\n standardowa 45 ACP,\n ulepszona 45 ACP Hydro-Shock.</text>
+	</string>
+	<string id="enc_weapons1_wpn-eagle_m1">
+		<text>Potкїna broс dodatkowo przerobiona tak, їe pasuj№ do niej naboje karabinowe. Maszyna do zabijania w walce na krуtki zasiкg.</text>
+	</string>
+	<string id="enc_weapons1_wpn-fn2000">
+		<text>Karabin szturmowy z granatnikiem. Ma elektroniczn№ kontrolк strzaіu oraz 40 mm granatnik.\n Amunicja:\n standardowa 5,56x45 mm SS109,\n przeciwpancerna 5,56x45 mm AP.</text>
+	</string>
+	<string id="enc_weapons1_wpn-fort">
+		<text>Ukraiсski pistolet policyjny, ktуry zast№piі PMm. W porуwnaniu z innymi pistoletami ma wiкksz№ celnoњж, lepsz№ ergonomiк i wiкkszy magazynek, ale jest mniej niezawodny.\n Amunicja:\n standardowa 9x18 mm,\n ulepszona 9x18 mm +P+.</text>
+	</string>
+	<string id="enc_weapons1_wpn-fort_m1">
+		<text>Eksperymentalny prototyp pistoletu Fort.</text>
+	</string>
+	<string id="enc_weapons1_wpn-g36">
+		<text>Niemiecki karabin szturmowy. Okaz wspуіczesnej broni najwyїszej klasy: lekki, niezawodny, ergonomiczny.\n Amunicja:\n standardowa 5,56x45 mm SS109,\n przeciwpancerna 5,56x45 mm AP.</text>
+	</string>
+	<string id="enc_weapons1_wpn-gauss">
+		<text>Supercelna broс stworzona przez naukowcуw z Zony. Korzystanie z niej jest niemal bezgіoњne, gdyї zamiast prochu strzelniczego zuїywa energiк artefaktu. Mimo ogromnej siіy ognia odrzut jest nieznaczny, natomiast celnoњci№ oraz siі№ niszcz№c№ karabin Gaussa przewyїsza inne bronie niewielkich rozmiarуw.\n Amunicja: 2 mm naboje Gaussa.</text>
+	</string>
+	<string id="enc_weapons1_wpn-groza">
+		<text>Karabin szturmowy z granatnikiem. To њwietna broс jak na warunki w Zonie: jest niewielka, niezawodna, ale uniwersalna i o duїej mocy. Tunder S14 to jeden z ulubionych karabinуw wojskowych stalkerуw.\n Amunicja:\n standardowa 9x39 mm PAB-9,\n przeciwpancerna 9x39 mm SP-6,\n snajperska 9x39 mm SP-5,\n granaty VOG-25 i VOG-25R do granatnika.</text>
+	</string>
+	<string id="enc_weapons1_wpn-groza_m1">
+		<text>Ta lufa to dzieіo jednego ze stalkerskich rzemieњlnikуw, ktуry j№ ulepszyі tak, by pasowaіy do niej bardziej rozpowszechnione naboje 5,45 mm.</text>
+	</string>
+	<string id="enc_weapons1_wpn-hpsa">
+		<text>Ten pistolet zasіuguje na miano jednego z najlepszych pistoletуw XX wieku. Jest niezawodny, skuteczny i ma niewielki rozrzut. Magazynek mieњci 13 nabojуw.\n Amunicja:\n standardowa 9x19 mm FMJ,\n ulepszona 9x19 mm PB1s.</text>
+	</string>
+	<string id="enc_weapons1_wpn-knife">
+		<text>Nуї myњliwski.</text>
+	</string>
+	<string id="enc_weapons1_wpn-l85">
+		<text>Po tym jak brytyjska armia zaczкіa uїywaж niemieckiego GP 37 zamiast tej broni, pojawiіa siк ona w duїych iloњciach na czarnym rynku, a nastкpnie w Zonie. Gіуwnymi zaletami IL 86 s№ standardowy celownik o powiкkszeniu 4x oraz wysoka celnoњж pierwszego strzaіu. W trybie ognia ci№gіego celnoњж znacznie siк zmniejsza, a gіуwne mechanizmy karabinu nie s№ niezawodne.\n Amunicja:\n standardowa 5,56x45 mm SS109,\n przeciwpancerna 5,56x45 mm AP.</text>
+	</string>
+	<string id="enc_weapons1_wpn-l85_m1">
+		<text>Dziкki kilku ulepszeniom zmniejszono efekt podrzucania lufy w gуrк.</text>
+	</string>
+	<string id="enc_weapons1_wpn-l85_m2">
+		<text>Broс ze zintegrowanym tіumikiem. Wiele czкњci zast№piono lїejszymi odpowiednikami, dziкki czemu i sama broс jest znacznie lїejsza. </text>
+	</string>
+	<string id="enc_weapons1_wpn-lr300">
+		<text>Lekki karabin o rzeczywistym zasiкgu do 300 metrуw. Dziкki wyj№tkowej іatwoњci strzaіu, wysokiej ergonomii i niewielkiej wadze broс ta ma wysok№ celnoњж. Jest jednak wraїliwa na zanieczyszczenia i nie zawsze nadaje siк do uїycia w trudnych warunkach polowych.\n Amunicja:\n standardowa 5,56x45 mm SS109,\n przeciwpancerna 5,56x45 mm AP.</text>
+	</string>
+	<string id="enc_weapons1_wpn-lr300_m1">
+		<text>Ulepszona broс szturmowa do strzelania ogniem pojedynczym. Zakіadano, їe bкdzie uїywana jako tani odpowiednik karabinu snajperskiego.</text>
+	</string>
+	<string id="enc_weapons1_wpn-mp5">
+		<text>Jeden z najlepszych pistoletуw maszynowych. W ostatnich dekadach XX wieku w wielu krajach zaczкіo go uїywaж wojsko i siіy specjalne policji. Pуџniej stopniowo zostaі zast№piony przez nowoczeњniejsze modele, pojawiі siк na czarnym rynku, a nastкpnie w Zonie.\n Amunicja:\n standardowa 9x19 mm FMJ,\n ulepszona 9x19 mm PB1s.</text>
+	</string>
+	<string id="enc_weapons1_wpn-mp5_m1">
+		<text>Lekki, niewielki i ulepszony tak, їe pasuj№ do niego naboje popularniejszego kalibru - ten karabin maszynowy to prawdziwe odkrycie dla pocz№tkuj№cych strzelcуw.</text>
+	</string>
+	<string id="enc_weapons1_wpn-mp5_m2">
+		<text>Odmiana modelu podstawowego. Dodano niewymienny tіumik.</text>
+	</string>
+	<string id="enc_weapons1_wpn-pb">
+		<text>Pistolet ze zintegrowanym tіumikiem - uїywaіy go radzieckie siіy specjalne. Jest przestarzaіy, lecz ci№gle skuteczny, jeњli siк go odpowiednio uїywa.\n Amunicja:\n standardowa 9x18 mm,\n ulepszona 9x18 mm +P+.</text>
+	</string>
+	<string id="enc_weapons1_wpn-pm">
+		<text>Najpopularniejszy pistolet w Zonie - spuњcizna po Zwi№zku Radzieckim. Wzglкdnie niezawodny i tani, ma niewielk№ pojemnoњж magazynka, niewielk№ moc oraz znaczny rozrzut. Podstawowa broс pocz№tkuj№cego stalkera.\n Amunicja:\n standardowa 9x18 mm,\n ulepszona 9x18 mm +P+.</text>
+	</string>
+	<string id="enc_weapons1_wpn-rg-6">
+		<text>Granatnik rewolwerowy. Czasem niezbкdny - szczegуlnie gdy celem s№ duїe grupy mutantуw, dobrze strzeїone nieruchome obiekty lub wyj№tkowo trudni przeciwnicy.\n Amunicja: granaty VOG-25\n oraz VOG-25R.</text>
+	</string>
+	<string id="enc_weapons1_wpn-rg6_m1">
+		<text>Odmiana granatnika rewolwerowego. Ten model zostaі stworzony specjalnie do granatуw z modelu zachodniego.</text>
+	</string>
+	<string id="enc_weapons1_wpn-rpg7">
+		<text>Granatnik stworzony w latach szeњжdziesi№tych XX wieku. Duїe iloњci takiej broni przechowywane s№ w skіadach wojskowych, sk№d przewozi siк je do Zony. Stalkerzy rzadko z niej korzystaj№: ogromne rozmiary i ciкїar sprawiaj№, їe nie jest popularna, choж w niektуrych misjach wydaje siк niezast№piona.\n Amunicja: OG-7V.</text>
+	</string>
+	<string id="enc_weapons1_wpn-sig_m1">
+		<text>Ta broс zostaіa stworzona do dziaіaс w mieњcie. Їeby zmniejszyж jej ciкїar, niektуre czкњci usuniкto lub zast№piono. Przez to nie da siк przymocowaж pod luf№ ani celownika, ani granatnika. Waїne, їe przynajmniej waїy okoіo poіowy tego co wczeњniej.</text>
+	</string>
+	<string id="enc_weapons1_wpn-sig_m2">
+		<text>Ulepszona tak, їe nadaje siк do ostrzaіu snajperskiego. Wbudowany celownik optyczny o duїej ostroњci.</text>
+	</string>
+	<string id="enc_weapons1_wpn-sig220">
+		<text>Broс stworzona w 1975 roku, lecz ci№gle popularna na caіym њwiecie. Magazynek niewielkiej pojemnoњci, ale niezawodny mechanizm. Drug№ z zalet jest moїliwoњж korzystania z nabojуw Kora o duїej mocy.\n Amunicja:\n standardowa 45 ACP,\n ulepszona 45 ACP Hydro-Shock.</text>
+	</string>
+	<string id="enc_weapons1_wpn-sig550">
+		<text>Stosunkowo nowy karabin szturmowy na naboje 5,56x45 mm SS109. To broс bardzo popularna dziкki swej celnoњci, niewielkiemu odrzutowi i niezawodnoњci.\n Amunicja:\n standardowa 5,56x45 mm SS109,\n przeciwpancerna 5,56x45 mm AP.</text>
+	</string>
+	<string id="enc_weapons1_wpn-spas12">
+		<text>Strzelba gіadkolufowa SPSA 14 powstaіa w latach siedemdziesi№tych XX wieku. Niezawodna i odpowiednia w wielu sytuacjach. Jednak jest stosunkowo duїa, droga i ma zbyt skomplikowany mechanizm. To prawdopodobnie najlepsza broс krуtkodystansowa w Zonie.\n Amunicja:\n њrutowa 12x70,\n kulowa 12x76,\n strzaіkowa 12x76.</text>
+	</string>
+	<string id="enc_weapons1_wpn-spas12_m1">
+		<text>BROС UNIKATOWA. Ta strzelba ma gwintowan№ lufк, dziкki czemu zwiкksza siк jej celnoњж przy strzelaniu z amunicji strzaіkowej lub kulowej. Jednak uїywanie amunicji њrutowej jest utrudnione.\n Amunicja:\n њrutowa 12x70,\n kulowa 12x76,\n strzaіkowa 12x76.</text>
+	</string>
+	<string id="enc_weapons1_wpn-svd">
+		<text>Od 1960 roku karabin ten byі powszechnie uїywany przez radzieck№, a pуџniej rosyjsk№ armiк. Okazaі siк wyj№tkowo niezawodny i porкczny. W Zonie uїywaj№ go gіуwnie doњwiadczeni stalkerzy z "Powinnoњci", ktуrzy poluj№ na mutantуw.\n Amunicja:\n standardowa 7,62x54 mm 7N1,\n przeciwpancerna 7,62x54 mm BP,\n snajperska 7,62x54 mm 7N14.</text>
+	</string>
+	<string id="enc_weapons1_wpn-svd_m1">
+		<text>Polepszono optykк, dziкki czemu moїliwa jest wiкksza rozdzielczoњж obrazu. Poprawiono rуwnieї stabilnoњж broni, w wyniku czego zmniejszyі siк odrzut.</text>
+	</string>
+	<string id="enc_weapons1_wpn-svu">
+		<text>Unowoczeњniona wersja karabinu snajperskiego. Niewielki model z ukіadem bull-pup. Њwietny na dіugie wycieczki w gі№b Zony.\n Amunicja:\n standardowa 7,62x54 mm 7N1,\n przeciwpancerna 7,62x54 mm BP,\n snajperska 7,62x54 mm 7N14.</text>
+	</string>
+	<string id="enc_weapons1_wpn-toz34">
+		<text>Ten karabin myњliwski jest popularny, lecz nie ma w nim nic szczegуlnego.\n Amunicja:\n њrutowa 12x70,\n kulowa 12x76,\n strzaіkowa 12x76.</text>
+	</string>
+	<string id="enc_weapons1_wpn-usp">
+		<text>Niezawodna broс krуtkodystansowa, ktуra dziкki niewielkim rozmiarom i wysokiej jakoњci wykonania jest bardzo popularna wњrуd weteranуw Zony.\n Amunicja:\n standardowa 45 ACP,\n ulepszona 45 ACP Hydro-Shock.</text>
+	</string>
+	<string id="enc_weapons1_wpn-val">
+		<text>Ta broс bazuje na bezgіoњnym karabinie snajperskim Wintar, ale ma skіadan№ kolbк, wiкkszy magazynek i moїe strzelaж seriami. Zostaіa stworzona dla siі specjalnych dziaіaj№cych w warunkach, w ktуrych niezbкdny jest bezgіoњny i bezbіyskowy ostrzaі.\n Amunicja:\n standardowa 9x39 mm PAB-9,\n przeciwpancerna 9x39 mm SP-6,\n snajperska 9x39 mm SP-5.</text>
+	</string>
+	<string id="enc_weapons1_wpn-val_m1">
+		<text>Od podstawowego modelu rуїni siк moїliwoњci№ dodania celownika optycznego PSO-1.</text>
+	</string>
+	<string id="enc_weapons1_wpn-vintorez">
+		<text>Specjalny karabin snajperski stworzony do bezgіoњnego i bezbіyskowego ostrzaіu, wyposaїony w zintegrowany tіumik. Przebija kaїd№ kamizelkк kuloodporn№ z odlegіoњci 400 metrуw. Ceni№ go sobie wszyscy stalkerzy.\n Amunicja:\n standardowa 9x39 mm PAB-9,\n przeciwpancerna 9x39 mm SP-6,\n snajperska 9x39 mm SP-5.</text>
+	</string>
+	<string id="enc_weapons1_wpn-walther">
+		<text>Њwietny pistolet. Niezawodny, o duїej celnoњci i znacznej pojemnoњci magazynka - szczegуlnie w przypadku modelu stworzonego dla nabojуw 9 mm FMJ.\n Amunicja:\n standardowa 9x19 mm FMJ,\n ulepszone 9x19 mm PB1s.</text>
+	</string>
+	<string id="enc_weapons1_wpn-walther_m1">
+		<text>Ulepszona wersja broni - moїna do niej uїywaж nabojуw kaliber 9x18 mm.</text>
+	</string>
+	<string id="enc_weapons1_wpn-wincheaster1300">
+		<text>Gіadkolufowa strzelba samopowtarzalna stworzona do uїytku w najbardziej niesprzyjaj№cych warunkach. Niezawodna. Caіa pokryta powіok№ antykorozyjn№.\n Amunicja:\n њrutowa 12x70,\n kulowa 12x76,\n strzaіkowa 12x76.</text>
+	</string>
+	<string id="grenade-f1">
+		<text>Granat F1</text>
+	</string>
+	<string id="grenade-gd05">
+		<text>GD-05</text>
+	</string>
+	<string id="grenade-rgd5">
+		<text>Granat RGD-5</text>
+	</string>
+	<string id="Weapons1">
+		<text>Broс</text>
+	</string>
+	<string id="wp_desert_eagle">
+		<text>"Black Kite"</text>
+	</string>
+	<string id="wpn_hpsa">
+		<text>HPSS-1m</text>
+	</string>
+	<string id="wpn_usp">
+		<text>UDP Compact</text>
+	</string>
+	<string id="wpn-abakan">
+		<text>Obokan</text>
+	</string>
+	<string id="wpn-abakan_m1">
+		<text>Snajperski Obokan</text>
+	</string>
+	<string id="wpn-abakan_m2">
+		<text>Szturmowy Obokan</text>
+	</string>
+	<string id="wpn-addon-grenade-launcher">
+		<text>Granatnik GP-25 </text>
+	</string>
+	<string id="wpn-addon-grenade-launcher-m203">
+		<text>Granatnik M203</text>
+	</string>
+	<string id="wpn-addon-scope">
+		<text>Celownik PSO-1</text>
+	</string>
+	<string id="wpn-addon-scope-susat">
+		<text>Celownik ACOG</text>
+	</string>
+	<string id="wpn-addon-silencer">
+		<text>Tіumik</text>
+	</string>
+	<string id="wpn-ak74">
+		<text>Akm 74/2</text>
+	</string>
+	<string id="wpn-ak74_m1">
+		<text>Szybkostrzelny Akm 74/2</text>
+	</string>
+	<string id="wpn-ak74u">
+		<text>Akm 74/2U</text>
+	</string>
+	<string id="wpn-ak74u_m1">
+		<text>Specjalne Akm 74/2U</text>
+	</string>
+	<string id="wpn-beretta">
+		<text>Martha</text>
+	</string>
+	<string id="wpn-bm16">
+		<text>Dubeltуwka-obrzyn</text>
+	</string>
+	<string id="wpn-colt_m1">
+		<text>Bezgіoњna Kora</text>
+	</string>
+	<string id="wpn-colt1911">
+		<text>Kora-919</text>
+	</string>
+	<string id="wpn-eagle_m1">
+		<text>Big Ben</text>
+	</string>
+	<string id="wpn-fn2000">
+		<text>FT 200M</text>
+	</string>
+	<string id="wpn-fort">
+		<text>Fort-12Mk2</text>
+	</string>
+	<string id="wpn-fort_m">
+		<text>Fort-15</text>
+	</string>
+	<string id="wpn-g36">
+		<text>GP 37</text>
+	</string>
+	<string id="wpn-gauss">
+		<text>Dziaіko Gaussa </text>
+	</string>
+	<string id="wpn-groza">
+		<text>Tunder S14</text>
+	</string>
+	<string id="wpn-groza_m1">
+		<text>"Tunder" 5.45</text>
+	</string>
+	<string id="wpn-l85">
+		<text>IL 86</text>
+	</string>
+	<string id="wpn-l85_m1">
+		<text>Wywaїony IL 86</text>
+	</string>
+	<string id="wpn-l85_m2">
+		<text>Lekki IL 86</text>
+	</string>
+	<string id="wpn-lr300">
+		<text>TRs 301</text>
+	</string>
+	<string id="wpn-lr300_m1">
+		<text>Snajperski TRs 301</text>
+	</string>
+	<string id="wpn-mp5">
+		<text>Viper 5</text>
+	</string>
+	<string id="wpn-mp5_m1">
+		<text>Viper 5 9x18</text>
+	</string>
+	<string id="wpn-mp5_m2">
+		<text>Bezgіoњny Viper</text>
+	</string>
+	<string id="wpn-pb">
+		<text>Pistolet bezgіoњny (PB1s)</text>
+	</string>
+	<string id="wpn-pm">
+		<text>PMm</text>
+	</string>
+	<string id="wpn-rg-6">
+		<text>Bulldog 6</text>
+	</string>
+	<string id="wpn-rg6_m1">
+		<text>Bulldog 6 m209</text>
+	</string>
+	<string id="wpn-rpg7">
+		<text>RPG-7u</text>
+	</string>
+	<string id="wpn-sig_m1">
+		<text>Szturmowy SIP</text>
+	</string>
+	<string id="wpn-sig_m2">
+		<text>Snajperski SGI</text>
+	</string>
+	<string id="wpn-sig220">
+		<text>SIP-t M200</text>
+	</string>
+	<string id="wpn-sig550">
+		<text>SGI 5k</text>
+	</string>
+	<string id="wpn-spas12">
+		<text>SPSA14</text>
+	</string>
+	<string id="wpn-spas12_m1">
+		<text>Gwintowany SPSA-14</text>
+	</string>
+	<string id="wpn-svd">
+		<text>Karabin (SWDm 2)</text>
+	</string>
+	<string id="wpn-svd_m1">
+		<text>"Dalekostrzelny" SWDm 2</text>
+	</string>
+	<string id="wpn-svu">
+		<text>SWUmk2</text>
+	</string>
+	<string id="wpn-toz34">
+		<text>TOS 34</text>
+	</string>
+	<string id="wpn-val">
+		<text>Karabin szturmowy VLA</text>
+	</string>
+	<string id="wpn-val_m1">
+		<text>Snajperski VLA</text>
+	</string>
+	<string id="wpn-vintorez">
+		<text>Wintar BC</text>
+	</string>
+	<string id="wpn-walther">
+		<text>Walker P9m</text>
+	</string>
+	<string id="wpn-walther_m1">
+		<text>Walker 9x18</text>
+	</string>
+	<string id="wpn-wincheaster1300">
+		<text>Chaser 13</text>
+	</string>
+</string_table>

@@ -1,0 +1,219 @@
+[postprocess_base]
+pp_eff_name	= radiation.ppe
+duality_h		= .015
+duality_v		= .015
+blur			= 1
+gray			= .0
+noise			= .01
+noise_scale		= 1
+noise_color		= 255,255,255,70
+
+[postprocess_anomaly]
+pp_eff_name	= radiation.ppe
+duality_h		= 0
+duality_v		= 0
+blur			= 1
+gray			= .7	;.9
+noise			= 0.0
+noise_scale		= 0
+noise_color		= 155,155,155,70
+
+;---------------------------------------------------------------------
+; New zone postprocess
+;---------------------------------------------------------------------
+[postprocess_new]
+pp_eff_name		= radiation.ppe
+radius_min		= 0.5
+radius_max		= 1.1
+
+[postprocess_rad]
+pp_eff_name	= radiation.ppe
+pp_eff_cyclic	= 1
+pp_eff_overlap  = true
+radiation_intensity = 1.0
+noise		= 0.0
+radius_min	= 0.0
+radius_max	= 1.0
+
+[postprocess_rad_weak]
+pp_eff_name	= radiation.ppe
+pp_eff_cyclic	= 1
+pp_eff_overlap  = true
+radiation_intensity = 1.0
+noise		= 0.0
+radius_min	= 0.0
+radius_max	= 1.0
+
+[postprocess_rad_average]
+pp_eff_name	= radiation.ppe
+pp_eff_cyclic	= 1
+pp_eff_overlap  = true
+radiation_intensity = 1.0
+noise		= 0.0
+radius_min	= 0.0
+radius_max	= 1.0
+
+[postprocess_rad_strong]
+pp_eff_name	= radiation.ppe
+pp_eff_cyclic	= 1
+pp_eff_overlap  = true
+radiation_intensity = 1.0
+noise		= 0.0
+radius_min	= 0.0
+radius_max	= 1.0
+
+[postprocess_psi]
+pp_eff_cyclic	= 1
+pp_eff_overlap  = true
+
+pp_eff_name	= psi.ppe
+radius_min		= 0.3
+radius_max		= 1.0
+
+[postprocess_death]
+ppe_file		= radiation.ppe
+radius_min		= 0.5
+radius_max		= 1.1
+
+[postprocess_flame]
+pp_eff_cyclic	= 1
+pp_eff_overlap  = true
+
+pp_eff_name	= thermal.ppe
+radius_min		= 0.3
+radius_max		= 1.0
+
+[postprocess_fuzz]
+pp_eff_name	= fuzz.ppe
+radius_min		= 0.5
+radius_max		= 0.8
+
+[postprocess_gravi]
+pp_eff_name 	= gravi.ppe
+radius_min		= 0.8
+radius_max		= 1.4
+
+[postprocess_electra]
+pp_eff_name 	= electra.ppe
+radius_min		= 0.5
+radius_max		= 0.9
+
+
+[mosquito_bald]
+pp_eff_name 	= mosquito_bald.ppe
+radius_min		= 0.2
+radius_max		= 2.7
+;---------------------------------------------------------------------
+
+[effector_alcohol]
+pp_eff_name		= alcohol.ppe
+pp_eff_cyclic	= 1
+
+cam_eff_name	= camera_effects\drunk.anm
+cam_eff_cyclic	= 1
+
+[effector_explode_hit]
+;pp_eff_name		= fire_hit.ppe
+;pp_eff_cyclic	= 0
+
+cam_eff_cyclic	= 0
+cam_eff_name	= camera_effects\shell_shock.anm
+
+[effector_fire_hit]
+;pp_eff_name		= fire_hit.ppe
+pp_eff_cyclic	= 0
+cam_eff_cyclic	= 0
+
+[effector_fire_hit_0]:effector_fire_hit
+cam_eff_name	= camera_effects\hit_front.anm
+
+[effector_fire_hit_1]:effector_fire_hit
+cam_eff_name	= camera_effects\hit_right.anm
+
+[effector_fire_hit_2]:effector_fire_hit
+cam_eff_name	= camera_effects\hit_back.anm
+
+[effector_fire_hit_3]:effector_fire_hit
+cam_eff_name	= camera_effects\hit_left.anm
+
+[effector_fire_hit_4]:effector_fire_hit
+cam_eff_name	= camera_effects\hit_front_left.anm
+
+[effector_fire_hit_5]:effector_fire_hit
+cam_eff_name	= camera_effects\hit_back_left.anm
+
+[effector_fire_hit_6]:effector_fire_hit
+cam_eff_name	= camera_effects\hit_front_right.anm
+
+[effector_fire_hit_7]:effector_fire_hit
+cam_eff_name	= camera_effects\hit_back_right.anm
+
+[effector_nightvision]
+;pp_eff_name		= nightvision.ppe
+;pp_eff_cyclic	= 0
+
+[snd_shock_effector]
+;pp_eff_name		= duality_circle.ppe
+pp_eff_name		= snd_shock.ppe
+pp_eff_cyclic	= 1
+
+[effector_radar_stop]
+;pp_eff_name		= radar_stop.ppe
+;pp_eff_cyclic	= 0
+
+cam_eff_name	= camera_effects\radar_stop.anm
+cam_eff_cyclic	= 0
+
+[effector_controller_aura]
+pp_eff_name		= controller_hit.ppe
+pp_eff_cyclic	= 0
+
+
+[effector_psy_health]
+pp_eff_name		= snd_shock.ppe
+pp_eff_cyclic	= 0
+;cam_eff_name	= camera_effects\radar_stop.anm ;fixme
+;cam_eff_cyclic	= 0 ; fixme
+
+[effector_controller_aura2]:effector_alcohol
+pp_eff_cyclic	= 0
+cam_eff_cyclic	= 0
+
+
+[effector_monster_hit]
+;pp_eff_name		= fire_hit.ppe ; no postprocess
+;pp_eff_cyclic	= 0
+cam_eff_cyclic	= 0
+
+[effector_monster_hit_0]:effector_monster_hit
+cam_eff_name	= camera_effects\hit_front.anm
+
+[effector_monster_hit_1]:effector_monster_hit
+cam_eff_name	= camera_effects\hit_right.anm
+
+[effector_monster_hit_2]:effector_monster_hit
+cam_eff_name	= camera_effects\hit_back.anm
+
+[effector_monster_hit_3]:effector_monster_hit
+cam_eff_name	= camera_effects\hit_left.anm
+
+[effector_monster_hit_4]:effector_monster_hit
+cam_eff_name	= camera_effects\hit_front_left.anm
+
+[effector_monster_hit_5]:effector_monster_hit
+cam_eff_name	= camera_effects\hit_back_left.anm
+
+[effector_monster_hit_6]:effector_monster_hit
+cam_eff_name	= camera_effects\hit_front_right.anm
+
+[effector_monster_hit_7]:effector_monster_hit
+cam_eff_name	= camera_effects\hit_back_right.anm
+
+;Postprocesss
+[effector_nightvision_bad]
+;pp_eff_name = nightvision_bad.ppe
+;pp_eff_cyclic = 1
+
+[effector_nightvision_good]
+;pp_eff_name = nightvision_good.ppe
+;pp_eff_cyclic = 1

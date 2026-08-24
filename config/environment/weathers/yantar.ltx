@@ -1,0 +1,127 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Цикл погоды на Янтаре (Yantar / Dead Lake)
+;Мрачная, гнетущая атмосфера, густой туман, отсутствие звуков природы.
+;Обновлено для новой системы ветра.
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[03:00:00]
+        ambient                          = yantar_tuman
+        far_plane                        = 100.000000
+        fog_color                        = 0.020000, 0.020000, 0.020000
+        fog_density                      = 0.700000
+        fog_sky_influence                = 1.000000
+        vertical_fog_intensity           = 0.900000
+        vertical_fog_density             = 1.000000
+        rain_density                     = 0.000000
+        sky_texture                      = sky\sky_13_cube_night
+        lut_texture                      = lut\lut_yantar
+        sun                              = 
+        sun_color                        = 0.000000, 0.000000, 0.000000
+        sun_shafts_intensity             = 0.400000
+        thunderbolt_collection           =
+        ambient_brightness               = 1.000000
+        
+        ; Тяжелый, стоячий воздух ночного болота
+        wind_profile                     = wind_foggy_swamp
+
+[12:00:00]
+        ambient                          = yantar_tuman
+        far_plane                        = 100.000000
+        fog_color                        = 0.268627, 0.268627, 0.268627
+        fog_density                      = 0.700000
+        fog_sky_influence                = 1.000000
+        vertical_fog_intensity           = 0.900000
+        vertical_fog_density             = 1.000000
+        sky_texture                      = sky\sky_9_cube
+        lut_texture                      = lut\lut_yantar
+        sun                              =
+        sun_color                        = 0.000000, 0.000000, 0.000000
+        sun_shafts_intensity             = 0.400000
+        thunderbolt_collection           =
+        ambient_brightness               = 1.000000
+        
+        ; Мертвый штиль в полдень
+        wind_profile                     = wind_foggy_swamp
+
+[13:00:00]
+        ambient                          = yantar_tuman
+        far_plane                        = 100.000000
+        fog_color                        = 0.268627, 0.268627, 0.268627
+        fog_density                      = 0.700000
+        fog_sky_influence                = 1.000000
+        vertical_fog_intensity           = 0.900000
+        vertical_fog_density             = 1.000000
+        sky_texture                      = sky\sky_9_cube
+        lut_texture                      = lut\lut_yantar
+        sun                              =
+        sun_color                        = 0.000000, 0.000000, 0.000000
+        sun_shafts_intensity             = 0.400000
+        thunderbolt_collection           =
+        rain_density                     = 1.000000
+        ambient_brightness               = 1.000000
+        
+        ; Начинается дождь, прибивающий пыль
+        wind_profile                     = wind_rain_light
+
+[14:00:00]
+        ambient                          = yantar_rain
+        far_plane                        = 100.000000
+        fog_color                        = 0.268627, 0.268627, 0.268627
+        fog_density                      = 0.700000
+        fog_sky_influence                = 1.000000
+        vertical_fog_intensity           = 0.900000
+        vertical_fog_density             = 1.000000
+        sky_texture                      = sky\sky_9_cube
+        lut_texture                      = lut\lut_yantar
+        sun                              =
+        sun_color                        = 0.000000, 0.000000, 0.000000
+        sun_shafts_intensity             = 0.400000
+        thunderbolt_collection           = collection_default
+        thunderbolt_duration             = 0.350000
+        thunderbolt_period               = 4.500000
+        rain_density                     = 1.000000
+        ambient_brightness               = 1.000000
+        
+        ; Дождь усиливается, ветер становится заметнее
+        wind_profile                     = wind_rain_medium
+
+[18:00:00]
+        ambient                          = yantar_tuman
+        far_plane                        = 100.000000
+        fog_color                        = 0.268627, 0.268627, 0.268627
+        fog_density                      = 0.700000
+        fog_sky_influence                = 1.000000
+        vertical_fog_intensity           = 0.900000
+        vertical_fog_density             = 1.000000
+        sky_texture                      = sky\sky_9_cube
+        lut_texture                      = lut\lut_yantar
+        sun                              =
+        sun_color                        = 0.000000, 0.000000, 0.000000
+        sun_shafts_intensity             = 0.400000
+        thunderbolt_collection           =
+        rain_density                     = 1.000000
+        ambient_brightness               = 1.000000
+        
+        ; Дождь стихает, возвращается тяжелый туман
+        wind_profile                     = wind_rain_light
+
+[20:00:00]
+        ambient                          = yantar_rain
+        far_plane                        = 100.000000
+        fog_color                        = 0.268627, 0.268627, 0.268627
+        fog_density                      = 0.700000
+        fog_sky_influence                = 1.000000
+        vertical_fog_intensity           = 0.900000
+        vertical_fog_density             = 1.000000
+        sky_texture                      = sky\sky_13_cube_night
+        lut_texture                      = lut\lut_yantar
+        sun                              =
+        sun_color                        = 0.000000, 0.000000, 0.000000
+        sun_shafts_intensity             = 0.400000
+        thunderbolt_collection           = collection_default
+        thunderbolt_duration             = 0.350000
+        thunderbolt_period               = 4.500000
+        rain_density                     = 1.000000
+        ambient_brightness               = 1.000000
+        
+        ; Вечерний дождь с грозой
+        wind_profile                     = wind_rain_medium
